@@ -1,0 +1,15 @@
+.btn{
+    --bs-btn-padding-x: 35px;
+    --bs-btn-padding-y: 11px;
+    --bs-btn-font-size: 16px;
+    --bs-btn-font-weight: 700;
+    --bs-btn-border-radius: 50px;
+    
+    &-lg{
+        @include media-breakpoint-up(xl){
+            --bs-btn-padding-x: 30px;
+            --bs-btn-padding-y: 25px;
+            --bs-btn-font-size: 32px;
+        }
+    }
+}
