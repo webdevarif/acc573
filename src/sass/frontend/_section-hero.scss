@@ -1,0 +1,26 @@
+/* Hero Area css
+============================================================================================ */
+.sec-hero{
+    padding-top: 100px;
+    padding-bottom: 60px;
+    min-height: 90vh;
+    background-color: $dark;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: $white;
+    background-size: cover;
+    background-position: center;
+
+    @include media-breakpoint-up(xxl){
+        padding-top: 150px;
+        padding-bottom: 100px;
+    }
+
+    &--content{
+        @include media-breakpoint-up(xl){
+            font-size: 20px;
+        }
+    }
+}
